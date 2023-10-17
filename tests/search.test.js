@@ -11,6 +11,6 @@ test('pass [] and keyWord = "shoot to equal []"', () => {
     expect(search([], 'shoot')).toEqual([])
 })
 
-test('pass docs and keyWord = "shoot to equal [doc1, doc2]"', () => {
-    expect(search(docs, 'shoot')).toEqual(['doc1', 'doc2'])
+test('pass docs and keyWord = "shoot to equal [doc2, doc1]"', () => {
+    expect(search(docs, 'shoot')).toEqual(['doc2', 'doc1'])
 })

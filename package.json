@@ -1,0 +1,26 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "[![Actions Status](https://github.com/deem-zee/algorithms-project-69/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/deem-zee/algorithms-project-69/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deem-zee/algorithms-project-69.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deem-zee/algorithms-project-69/issues"
+  },
+  "homepage": "https://github.com/deem-zee/algorithms-project-69#readme",
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "jest": "^29.7.0"
+  }
+}
